@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+
+.cart-icon {
+  display: flex;
+  text-align: end;
+  margin-right: 2rem;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.cart-icon img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.cart-icon p {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  right: -0.5rem;
+  top: 0.1rem;
+  border-radius: 50%;
+  background: #ff2d2dcc;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+}
