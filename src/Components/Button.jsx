@@ -10,7 +10,7 @@ const Button = () => {
   {
     catVal.map((elmCur) =>{
       return(
-<button className='btn btn-light w-25 m-2' onClick={() => filterBtn(elmCur)} >{elmCur}</button>
+<button className='btn btn-warning w-25 m-2' onClick={() => filterBtn(elmCur)} >{elmCur}</button>
      )
     })
     }

@@ -17,7 +17,7 @@ const AllProducts = () => {
         <hr />
         <Button />
         <h1 className='text-center  mb-2 p-2'>Products</h1>
-        <div className='container'>
+        <div className='container bg-light'>
         <div className='row'>
           {
             products.map((curElm, index) => {
