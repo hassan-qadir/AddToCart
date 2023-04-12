@@ -16,7 +16,7 @@ const AllProducts = () => {
         </NavLink>
         <hr />
         <Button />
-        <h1 className='text-center  mb-3 p-3'>Products</h1>
+        <h1 className='text-center  mb-2 p-3'>Products</h1>
         <div className='container bg-light'>
         <div className='row'>
           {
